@@ -118,7 +118,7 @@ async function makeBroccoli () {
   const step6 = await obtainInstruction("broccoli", 6);
   document.querySelector("#broccoli").innerHTML += `<li>${step6}</li>`;
 
-  document.querySelector("#broccoli").innerHTML += `<li>$Broccoli is ready!</li>`;
+  document.querySelector("#broccoli").innerHTML += `<li>Broccoli is ready!</li>`;
 
   document.getElementById("broccoliImg").removeAttribute("hidden");
 }
